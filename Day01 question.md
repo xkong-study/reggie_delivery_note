@@ -31,3 +31,18 @@ R<T>：返回类型，表示返回一个包含类型为 T 的数据的 R 对象�
 static：方法是静态的，可以通过类名直接调用。   
 R<>：创建泛型类的实例，泛型类型由方法的类型参数 T 提供。   
 成功响应：将传入的对象设置为响应数据，将响应码设置为1，最后返回包含成功信息的响应对象。  
+
+### HttpServletRequest 
+是 Java Servlet 规范中定义的接口，用于表示客户端发起的 HTTP 请求。它提供了许多方法，允许开发人员获取有关客户端请求的信息，如请求参数、头部信息、会话信息等。    
+
+在Java的Web开发中，当用户通过浏览器访问网页时，浏览器会向服务器发送HTTP请求。服务器端的Servlet可以通过接收 HttpServletRequest 对象来获取关于这个HTTP请求的各种信息。这个对象包含了请求的各种属性和数据。      
+
+例如，通过 HttpServletRequest 对象，你可以获取：      
+
+请求的参数（GET或POST请求中的参数）    
+请求的头部信息     
+请求的URI（Uniform Resource Identifier）     
+请求的方法（GET、POST等）    
+客户端的IP地址    
+请求的会话信息等     
+在Servlet中，HttpServletRequest 对象通常作为方法的参数，通过容器（如Tomcat）自动传递给Servlet的相应方法（如 doGet() 或 doPost()）。    
