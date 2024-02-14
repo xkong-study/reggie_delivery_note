@@ -10,6 +10,7 @@
 ## 登录功能
 
 ![Screenshot 2024-02-14 at 14.38.26.png](https://img.xwyue.com/i/2024/02/14/65ccd06900097.png)
+![Screenshot 2024-02-14 at 16.44.36.png](https://img.xwyue.com/i/2024/02/15/65ccee02adb7b.png)
 
 #### 明确一下需要返回什么数据-并且是json格式的      
 
