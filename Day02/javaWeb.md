@@ -17,3 +17,6 @@ Spring Boot 支持多种内嵌的 Servlet 容器，包括但不限于：
 Tomcat   
 Jetty   
 Undertow   
+
+#### @Value
+@Value 注解是Spring框架中用于从配置文件中读取值的注解，通常用于将配置文件中的属性值注入到Java类的字段或方法参数中。在这里，${Reggie.path} 表示从配置文件中获取名为 Reggie.path 的属性值。
