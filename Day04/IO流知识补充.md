@@ -29,3 +29,14 @@ file对象可以指代一个不存在的文件路径，返回的大小为零
 <img width="169" alt="Screenshot 2024-02-22 at 12 59 33" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/b2351886-93eb-4438-ae21-fd3069062756">
 
 <img width="518" alt="Screenshot 2024-02-22 at 13 08 47" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/3fc28ab7-03ef-4727-8f6e-ccea952f6a97">
+
+
+如何解决：   
+<img width="970" alt="Screenshot 2024-02-22 at 14 41 17" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/0157c2c4-7103-408c-bd9b-40a335ab4d3f">  
+
+
+<img width="711" alt="Screenshot 2024-02-22 at 13 50 42" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/b601f426-997d-4dc0-babb-3bbaebb37641">
+
+
+
+
