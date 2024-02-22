@@ -17,3 +17,15 @@ file对象可以指代一个不存在的文件路径，返回的大小为零
 
 ## IO流 => 读写文件数据
 
+<img width="353" alt="Screenshot 2024-02-22 at 09 39 20" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/19bf1ca8-8894-4966-843e-e6686c6141b6">
+<img width="644" alt="Screenshot 2024-02-22 at 09 41 35" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/d1abb72b-f595-4850-b30a-d07937ee54b2">
+<img width="654" alt="Screenshot 2024-02-22 at 09 45 11" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/202860ce-272f-4bcb-be4b-cab74a8eab39">
+<img width="625" alt="Screenshot 2024-02-22 at 09 47 53" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/65a78052-c8f9-4915-b876-c478bdb3e6cc">
+<img width="494" alt="Screenshot 2024-02-22 at 09 51 30" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/0dd16d1b-0398-4973-8473-2092640d2d9f">
+
+### Read
+<img width="390" alt="Screenshot 2024-02-22 at 12 56 21" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/b258ac0f-2460-425c-8e29-37a7b161fb60">
+
+<img width="169" alt="Screenshot 2024-02-22 at 12 59 33" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/b2351886-93eb-4438-ae21-fd3069062756">
+
+<img width="518" alt="Screenshot 2024-02-22 at 13 08 47" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/3fc28ab7-03ef-4727-8f6e-ccea952f6a97">
