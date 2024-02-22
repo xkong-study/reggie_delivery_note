@@ -21,6 +21,7 @@ file对象可以指代一个不存在的文件路径，返回的大小为零
 <img width="644" alt="Screenshot 2024-02-22 at 09 41 35" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/d1abb72b-f595-4850-b30a-d07937ee54b2">
 <img width="654" alt="Screenshot 2024-02-22 at 09 45 11" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/202860ce-272f-4bcb-be4b-cab74a8eab39">
 <img width="625" alt="Screenshot 2024-02-22 at 09 47 53" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/65a78052-c8f9-4915-b876-c478bdb3e6cc">
+<img width="291" alt="Screenshot 2024-02-22 at 15 16 01" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/d99e3fab-847a-42a5-ae29-cd29c9a10a58">
 <img width="494" alt="Screenshot 2024-02-22 at 09 51 30" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/0dd16d1b-0398-4973-8473-2092640d2d9f">
 
 ### Read
@@ -34,10 +35,16 @@ file对象可以指代一个不存在的文件路径，返回的大小为零
 如何解决：   
 <img width="970" alt="Screenshot 2024-02-22 at 14 41 17" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/0157c2c4-7103-408c-bd9b-40a335ab4d3f">  
 
-
 <img width="711" alt="Screenshot 2024-02-22 at 13 50 42" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/b601f426-997d-4dc0-babb-3bbaebb37641">
 
 <img width="635" alt="Screenshot 2024-02-22 at 14 44 08" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/d1970620-133a-4bbb-b348-764bb8e4dc75">
+
+<img width="577" alt="Screenshot 2024-02-22 at 14 48 25" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/2587b8e0-400c-4b4b-9039-cd5b545fae86">
+
+### 文件复制
+<img width="647" alt="Screenshot 2024-02-22 at 14 59 25" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/e9b8b548-ff2e-4a93-92b0-6798b5d70c97">
+<img width="382" alt="Screenshot 2024-02-22 at 15 05 47" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/7a43f6cd-b6ad-4971-88a8-0877390a59f4">
+<img width="465" alt="Screenshot 2024-02-22 at 15 11 26" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/0a83a340-2f7d-4c0c-a4fa-ee9667537830">
 
 
 
