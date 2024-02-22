@@ -37,6 +37,7 @@ file对象可以指代一个不存在的文件路径，返回的大小为零
 
 <img width="711" alt="Screenshot 2024-02-22 at 13 50 42" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/b601f426-997d-4dc0-babb-3bbaebb37641">
 
+<img width="635" alt="Screenshot 2024-02-22 at 14 44 08" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/d1970620-133a-4bbb-b348-764bb8e4dc75">
 
 
 
