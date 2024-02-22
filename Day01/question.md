@@ -73,3 +73,45 @@ IService<Entity> 可能看起来好像是直接操作实体类，但实际上这
 接口定义（IService<Entity>）：定义了一组操作实体的抽象方法，没有具体实现。
 
 接口实现（比如DishServiceImpl）：提供了具体的业务逻辑，并通过Mapper层来实现接口定义中的抽象方法。
+
+### 两个疑惑
+```code
+public interface CategoryService extends IService<Category>
+@Autowired
+    private CategoryService categoryService;
+categoryService.save(category);
+```
+我有两个疑惑：
+1.为什么接口可以直接声明categoryService对象？
+2.为什么categoryService可以直接调用方法不需要new对象？
+
+
+@Autowired 注解是用于依赖注入的。当你在一个类中使用 @Autowired 注解标记一个字段时，Spring 容器会尝试为这个字段注入一个合适的实例。这个实例通常是一个实现了该字段类型的类的实例。
+
+如果你的接口有一个或多个实现类，并且这些实现类被Spring容器托管（例如使用 @Service、@Component 或其他注解标记），那么 Spring 就能够根据需要的接口类型自动注入合适的实现类。
+
+例如，假设有一个 CategoryService 接口和一个名为 CategoryServiceImpl 的实现类:
+
+```code
+public interface CategoryService {
+    void save(Category category);
+}
+
+@Service
+public class CategoryServiceImpl implements CategoryService {
+    @Override
+    public void save(Category category) {
+        // 实现具体的保存逻辑
+    }
+}
+```
+
+然后在其他类中，使用 @Autowired 注解注入 CategoryService:
+
+```code
+@Autowired
+private CategoryService categoryService;
+```
+在运行时，Spring 会通过反射和动态代理等技术创建一个 CategoryServiceImpl 的实例，并将其注入到 categoryService 字段中。这样，你就可以通过 categoryService 对象调用 save 方法。
+
+总体来说，虽然接口本身不能被直接实例化，但通过 Spring 的依赖注入机制，你可以方便地使用接口类型的字段，并让 Spring 在运行时为其提供具体的实现。这种实现背后涉及到 Spring 容器的管理和创建对象的机制。
