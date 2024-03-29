@@ -10,4 +10,4 @@ ps -ef
 
 <img width="511" alt="截屏2024-03-29 23 06 39" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/79c64866-8963-4781-ac13-4eb528acb8bf">
 
-![Uploading 截屏2024-03-29 23.22.05.png…]()
+<img width="541" alt="截屏2024-03-29 23 22 36" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/66e010ab-4cb4-44cb-bc54-64b63a62719d">
