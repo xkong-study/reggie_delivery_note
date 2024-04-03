@@ -1,15 +1,16 @@
+## 先配置
 <img width="659" alt="截屏2024-04-03 19 33 36" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/c42f228b-fd9f-47ff-a4f1-a23b8e74e2d9">
 
 <img width="442" alt="截屏2024-04-03 19 35 47" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/55de859f-2680-462d-ba0f-29ac8990f98a">
 
-如何切换数据库： select 1      
+## 如何切换数据库： select 1      
 <img width="232" alt="截屏2024-04-03 19 37 04" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/fe7646c2-e320-47e4-8d6b-57563ccd8fc8">
 
 RedisTemplate需要一个连接工厂（ConnectionFactory）实例，通常情况下，Spring Boot会自动配置它。你可以直接在你的服务或组件中注入RedisTemplate并使用它：     
 
 <img width="498" alt="截屏2024-04-03 19 42 48" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/31a1680e-f4e6-4ddd-ae00-6e64a0c3b6cd">      
 
-为了防止redis的key乱码需要配置：    
+## 为了防止redis的key乱码需要配置：    
 <img width="870" alt="截屏2024-04-03 19 49 10" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/346245a9-cbf9-4f42-8a7c-088d46d1a688">
 
 
@@ -68,19 +69,26 @@ public class RedisConfig {
 
 ```
 
-String类型数据使用方式：    
+## String类型数据使用方式：    
 
 <img width="856" alt="截屏2024-04-03 20 18 41" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/47cfe24e-54a4-4100-94b9-01501403d109">
 
 
-Hash类型数据使用方式：  
+## Hash类型数据使用方式：  
 用户id作为key     
 
 <img width="552" alt="截屏2024-04-03 20 29 05" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/1c6cd48a-062a-43bd-b7b5-bc09d111f0fb">
 
-List类型数据使用方式：   
+## List类型数据使用方式：   
 
 <img width="549" alt="截屏2024-04-03 20 36 05" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/8f3fe157-0225-48eb-9359-93ed4826b60a">
 
 <img width="575" alt="截屏2024-04-03 20 38 25" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/8f1c9b80-cadc-4c57-88f2-19873d95f857">
 
+## Set类型数据使用方式：     
+
+<img width="494" alt="截屏2024-04-03 20 52 08" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/12ad49e8-9da4-4dfb-a106-57899df91117">  
+
+## Sorted Set类型数据使用方式： 
+
+<img width="588" alt="截屏2024-04-03 21 01 17" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/1d8161da-cf1a-4df5-906f-3ce27a97bc4e">
