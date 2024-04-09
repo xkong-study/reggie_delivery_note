@@ -1,3 +1,5 @@
+WebMvcConfigurer是配置和扩展 Spring MVC HTTP 请求处理的核心工具。  
+
 WebMvcConfig 在 Spring MVC 中通常用于自定义和扩展 Spring MVC 的配置。它处理的主要方面包括：       
 
 1.静态资源管理：配置静态资源的访问路径和存储位置，如图片、CSS、JavaScript 文件等。        
@@ -15,3 +17,10 @@ WebMvcConfig 在 Spring MVC 中通常用于自定义和扩展 Spring MVC 的配�
 7.默认Servlet配置：配置如何将请求映射到容器默认的Servlet，主要用于处理静态资源。         
 
 8.路径匹配和内容协商配置：定制路径匹配规则和视图内容的协商管理，如根据请求的内容类型返回不同格式的响应。        
+
+可以扩展的功能：    
+如果你添加了 Web安全相关的依赖，如 Spring Security，你可能会创建一个配置类来定义安全规则和策略。            
+对于 数据库访问和ORM框架，如 Hibernate 或 MyBatis，你通常会创建数据源配置和事务管理配置。            
+当引入 消息代理中间件，如 RabbitMQ 或 Kafka，你会配置连接工厂、模板和监听器容器。         
+
+这些功能通常与HTTP请求的处理紧密相关，并且可以在Spring MVC的WebMvcConfigurer实现中进行配置。这允许开发者自定义Web层的行为来适应各种Web开发场景的需求。             
