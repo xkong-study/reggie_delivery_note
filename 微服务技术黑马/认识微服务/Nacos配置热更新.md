@@ -10,3 +10,6 @@
 
 方法二：约定大于配置                
 <img width="834" alt="截屏2024-04-23 22 21 05" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/4a7d911b-54d3-400d-871d-bd428d0ea6d2">
+
+总结：     
+<img width="824" alt="截屏2024-04-23 22 26 03" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/89a76b1b-a3e0-4280-b617-5b759a90284c">
