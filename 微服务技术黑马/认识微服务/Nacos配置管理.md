@@ -12,3 +12,5 @@
 
 
 <img width="886" alt="截屏2024-04-22 21 53 11" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/54f2c0a7-8ac6-4335-b2c1-48842b0c5c75">
+
+<img width="504" alt="截屏2024-04-23 22 13 53" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/0091c6ae-a0f0-4ffb-8eed-926a94bd7ef2">
