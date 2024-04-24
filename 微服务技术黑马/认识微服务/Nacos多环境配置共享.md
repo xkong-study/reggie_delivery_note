@@ -10,3 +10,5 @@ spring.cloud.nacos.config.refreshable-dataids=common.properties
 这里的common.properties就是存放在公共命名空间的一个配置文件。                
 
 <img width="631" alt="截屏2024-04-24 22 36 22" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/547bb7e7-9db9-420e-bba4-95e056ccf5fa">
+
+<img width="485" alt="截屏2024-04-24 22 36 52" src="https://github.com/xkong-study/reggie_delivery_note/assets/100473178/655ce56d-a11a-4bc9-bee7-aa70b4f3349e">
